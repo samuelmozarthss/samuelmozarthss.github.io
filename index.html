@@ -1,553 +1,577 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hustbee</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-</head>
-<body>
-<div id="header-holder">
-    <div class="cloud-bg"></div>
-    <nav id="nav" class="navbar navbar-full">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Cando HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,500,600,600i,800,900&display=swap" rel="stylesheet">
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="css/style-data.css">
+
+    <title>Samuel Mozarth</title>
+
+  </head>
+
+  <body class="dark-theme text-white section-80">
+
+    <!-- Preloader -->
+    <div id="preloader">
+  	   <div id="status">
+         <div class = "centered">
+        	<div class = "blob-1"></div>
+        	<div class = "blob-2"></div>
+        </div>
+       </div>
+  	</div>
+
+    <header class="nav-style-5">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark px-lg-5">
+        <a class="navbar-brand" href="index-data.html">
+          <img src="images/index-data/logo-analysis.png" alt="Cando HTML5 Template">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="one-page-nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#customers">Customers</a>
+            </li>
+            <li class="align-self-center nav-item">
+              <a href="#quote" class="btn btn-small btn-outline">Contate-me</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Hero -->
+      <section id="hero" class="hero-style-3 d-flex align-content-center min-vh-100 align-items-center" style="background-position: right; background-repeat: no-repeat;background-image:url('images/index-data/hero/grid.png');">
+        <div class="cubes d-none d-xl-block">
+          <img class="cube-1" src="images/index-data/hero/cube1.png" alt="Cube Cando">
+          <img class="cube-2" src="images/index-data/hero/cube2.png" alt="Cube Cando">
+        </div>
         <div class="container-fluid">
-            <div class="container container-nav">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="navbar-header">
-                            <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Hustbee"></a>
-                        </div>
-                        <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse navbar-collapse-centered" id="bs">
-                            <ul class="nav navbar-nav navbar-nav-centered">
-                                <li class="nav-item"><a class="nav-link" href="home-light.html">Light Header</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Hosting Services</a>
-                                    <div class="dropdown-menu custom-dropdown-menu">
-                                        <div class="dropdown-items-holder">
-                                            <div class="items-with-icon">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="webhosting.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server1.svg" alt=""></span>
-                                                            <span class="text">Web Hosting</span>
-                                                        </a>
-                                                        <a href="cloudhosting.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server2.svg" alt=""></span>
-                                                            <span class="text">Cloud Hosting</span>
-                                                        </a>
-                                                        <a href="vpshosting.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server3.svg" alt=""></span>
-                                                            <span class="text">VPS Hosting</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="wordpresshosting.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server4.svg" alt=""></span>
-                                                            <span class="text">Wordpress Hosting</span>
-                                                        </a>
-                                                        <a href="dedicatedhosting.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server5.svg" alt=""></span>
-                                                            <span class="text">Dedicated Hosting</span>
-                                                        </a>
-                                                        <a href="domains.html" class="link-with-icon">
-                                                            <span class="icon"><img src="images/server6.svg" alt=""></span>
-                                                            <span class="text">Domain Names</span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="items">
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="#" class="link">Hustbee Features</a>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-6">
-                                                        <a href="#" class="link">Website builder</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="domains.html">Domains</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Support</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="about.html">About</a></li>
-                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                        <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right other-navbar">
-                                <li class="nav-item">
-                                    <a class="nav-link btn-client-area" href="login.html"><img src="images/lock.svg" alt="">Client Area</a>
-                                    <div class="chat-info"><i class="hstb hstb-right-arrow"></i>Chat Available</div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn-chat" href="#"><i class="hstb hstb-chat"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="offset-lg-1 col-lg-3 align-self-center">
+              <h3>Samuel Mozarth</h3>
+              <p class="lead">descrição</p>
+              <a href="#" class="btn btn-outline btn-large">Get started</a>
             </div>
+            <div class="offset-lg-1 col-lg-7">
+              <img src="images/index-data/hero/people-main.png" class="img-fluid" alt="Hero image" />
+            </div>
+          </div>
         </div>
-    </nav>
-    <div id="top-content" class="container-fluid">
+      </section>
+
+       <!-- Skills -->
+       <section id="process" class="px-lg-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="offset-lg-1 col-lg-5" data-aos="fade-right" data-aos-delay="200">
+              <img src="images/index-data/progress/progress.png" class="img-fluid" alt="Progress">
+            </div>
+            <div class="col-lg-4 align-self-center" data-aos="fade-left" data-aos-delay="300">
+              <h3 class="text-white mb-3">Quantitative analysis</h3>
+              <h6 class="text-white">Data analysis includes but is not limited to:</h6>
+              <p class="lead mb-2">Support with expiriment design</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+              <p class="lead mb-2">Assay analysis and optimization</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+              </div>
+              <p class="lead mb-2">Non-parametric statistics</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Services -->
+      <section id="services" class="text-center">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="main-slider">
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                        <img src="images/slide-img1.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Outstanding Web<br>Hosting for you.</div>
-                                    <div class="m-text">Starting at only <span class="bold">$2.38/mo*</span></div>
-                                    <a href="#" class="hbtn hbtn-primary hbtn-lg">Hosting Services</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                        <img src="images/slide-img2.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Create your first<br>website today.</div>
-                                    <div class="m-text">Starting at only <span class="bold">$2.38/mo*</span></div>
-                                    <a href="#" class="hbtn hbtn-primary hbtn-lg">Create now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row rtl-row">
-                                <div class="col-sm-5">
-                                    <div class="img-holder">
-                                        <img src="images/slide-img3.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
-                                    <div class="b-text">Build your site<br>with page builder</div>
-                                    <div class="m-text">Starting at only <span class="bold">$2.38/mo*</span></div>
-                                    <a href="#" class="hbtn hbtn-primary hbtn-lg">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="main-domain-search-holder">
-                                        <div class="b-text">Simple, affordable<br>Web Hosting</div>
-                                        <form>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="input-items">
-                                                        <input type="text" class="form-control domain-input" name="domain" placeholder="My domain name" autocapitalize="none" />
-                                                        <span class="input-items-btn">
-                                                            <input type="submit" class="btn search" value="Search" />
-                                                            <input type="submit" name="transfer" class="btn transfer" value="Transfer" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                        <div class="m-text">Starting at only <span class="bold">$2.38/mo*</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h3 class="mb-4">Our Services</h3>
+              <img class="divider mb-5" src="images/index-data/divider.png" alt="Services" />
+            </div>
+          </div>
+          <div class="row" style="height:430px;">
+            <!-- Service Item 1 -->
+            <div class="col-lg-4 align-self-start">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in">
+                  <img src="images/index-data/services/services1.png" alt="Services" />
+                  <h6 class="service-title">Statistical Analysis</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+            <!-- Service Item 2 -->
+            <div class="col-lg-4 align-self-center">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="100">
+                  <img src="images/index-data/services/services2.png" alt="Services" />
+                  <h6 class="service-title">Scientific Strategy</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+            <!-- Service Item 3 -->
+            <div class="col-lg-4 align-self-end">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="200">
+                  <img src="images/index-data/services/services3.png" alt="Services" />
+                  <h6 class="service-title">Workflow Optimization</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-xl-block">
+          <img class="services-cube" src="images/index-data/hero/big-cube.png" alt="Services Cube">
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section>
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h3 class="mb-4">The Process</h3>
+              <img class="divider mb-5" src="images/index-data/divider.png" alt="Process" />
+            </div>
+          </div>
+          <div class="row" style="height:430px;">
+            <!-- Service Item 1 -->
+            <div class="col-lg-4 align-self-start">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in">
+                  <img src="images/index-data/process/flow1.png" alt="Services" />
+                  <h6 class="service-title">1. Bioinformatics</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+            <!-- Service Item 2 -->
+            <div class="col-lg-4 align-self-center">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="100">
+                  <img src="images/index-data/process/flow2.png" alt="Services" />
+                  <h6 class="service-title">2. Power calculation</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+            <!-- Service Item 3 -->
+            <div class="col-lg-4 align-self-end">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="200">
+                  <img src="images/index-data/process/flow3.png" alt="Services" />
+                  <h6 class="service-title">3. Simulations</h6>
+                  <span class="service-text">Monotonectally embrace empowered solutions for virtual best practices.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="px-lg-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="offset-lg-1 col-lg-5" data-aos="fade-right">
+              <div class="about-splash align-self-center">
+                <img src="images/index-data/about/about-image.png" alt="About us" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-5 align-self-center" data-aos="fade-left">
+              <h5 class="text-primary mb-3">Why choose us</h5>
+              <h3 class="text-white mt-0 mb-3">10 years of experience in data analysis</h3>
+              <h6 class="text-white">Embrace empowered solutions for virtual best practices.</h6>
+              <p class="lead">Out believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end piqued spring.</p>
+              <a class="video-btn mfp-iframe" href="https://www.youtube.com/watch?v=Scxs7L0vhZ4?autoplay=1"><i class="fas fa-play"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Tables -->
+      <section id="pricing">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h5 class="text-primary mb-3">Pricing</h5>
+              <h3 class="mt-1">Pick your plan</h3>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <label class="toggler toggler--is-active" id="filt-monthly">Monthly</label>
+              <div class="toggle">
+                <input type="checkbox" id="switcher" class="check">
+                <b class="b switch"></b>
+              </div>
+              <label class="toggler" id="filt-yearly">Yearly</label>
+            </div>
+          </div>
+          <div id="monthly" class="row mt-5" style="height:660px;">
+            <!-- Table 1 -->
+            <div class="col-lg-4 mb-5 align-self-start">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in">
+                  <h5 class="mb-0">Free</h5>
+                  <h3 class="text-primary my-3">$0</h3>
+                  <p>Single Access</p>
+                  <p>With Ads</p>
+                  <p>48h Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <!-- Table 2 -->
+            <div class="col-lg-4 mb-5 align-self-center">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in" data-aos-delay="100">
+                  <h5 class="mb-0">Standard</h5>
+                  <h3 class="text-primary my-3">$199</h3>
+                  <p>Single Access</p>
+                  <p>No Ads</p>
+                  <p>24h Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <!-- Table 3 -->
+            <div class="col-lg-4 mb-5 align-self-end">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in" data-aos-delay="150">
+                  <h5 class="mb-0">Advanced</h5>
+                  <h3 class="text-primary my-3">$1999</h3>
+                  <p>Team Access</p>
+                  <p>No Ads</p>
+                  <p>Extreme Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="yearly" class="hide row mt-5" style="height:660px;">
+            <!-- Table 1 -->
+            <div class="col-lg-4 mb-5 align-self-start">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in">
+                  <h5 class="mb-0">Free</h5>
+                  <h3 class="text-primary my-3">$0</h3>
+                  <p>Single Access</p>
+                  <p>With Ads</p>
+                  <p>48h Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <!-- Table 2 -->
+            <div class="col-lg-4 mb-5 align-self-center">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in" data-aos-delay="100">
+                  <h5 class="mb-0">Standard</h5>
+                  <h3 class="text-primary my-3">$1999</h3>
+                  <p>Single Access</p>
+                  <p>No Ads</p>
+                  <p>24h Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <!-- Table 3 -->
+            <div class="col-lg-4 mb-5 align-self-end">
+              <div class="border-gradient">
+                <div class="card p-5 bg-dark border-dark" data-aos="zoom-in" data-aos-delay="150">
+                  <h5 class="mb-0">Advanced</h5>
+                  <h3 class="text-primary my-3">$9999</h3>
+                  <p>Team Access</p>
+                  <p>No Ads</p>
+                  <p>Extreme Support</p>
+                  <a class="btn btn-secondary btn-medium" href="#contact">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section id="team" class="text-center">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col">
+              <h3 class="mb-4">Team of Specialists</h3>
+              <img class="divider mb-5" src="images/index-data/divider.png" alt="Team" />
+            </div>
+          </div>
+          <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-lg-3">
+              <div class="border-gradient">
+                <div class="team-member-style-3" data-aos="zoom-in" data-aos-delay="0">
+                  <img src="images/index-data/team/herbert.png" class="rounded-circle" alt="Team member">
+                  <div class="member-social">
+                    <a href="#" class="btn btn-facebook btn-circle"></a>
+                    <a href="#" class="btn btn-twitter btn-circle"></a>
+                    <a href="#" class="btn btn-instagram btn-circle"></a>
+                  </div>
+                  <h6 class="member-name">Herbert</h6>
+                  <span class="member-title">Sr. Data Analyst</span>
+                </div>
+              </div>
+            </div>
+            <!-- Team Member 1 -->
+            <div class="col-lg-3">
+              <div class="border-gradient">
+                <div class="team-member-style-3" data-aos="zoom-in" data-aos-delay="100">
+                  <img src="images/index-data/team/adela.png" class="rounded-circle" alt="Team member">
+                  <div class="member-social">
+                    <a href="#" class="btn btn-facebook btn-circle"></a>
+                    <a href="#" class="btn btn-twitter btn-circle"></a>
+                    <a href="#" class="btn btn-instagram btn-circle"></a>
+                  </div>
+                  <h6 class="member-name">Adela</h6>
+                  <span class="member-title">Sr. Data Analyst</span>
+                </div>
+              </div>
+            </div>
+            <!-- Team Member 1 -->
+            <div class="col-lg-3">
+              <div class="border-gradient">
+                <div class="team-member-style-3" data-aos="zoom-in" data-aos-delay="200">
+                  <img src="images/index-data/team/alda.png" class="rounded-circle" alt="Team member">
+                  <div class="member-social">
+                    <a href="#" class="btn btn-facebook btn-circle"></a>
+                    <a href="#" class="btn btn-twitter btn-circle"></a>
+                    <a href="#" class="btn btn-instagram btn-circle"></a>
+                  </div>
+                  <h6 class="member-name">Alda</h6>
+                  <span class="member-title">Jr. Data Analyst</span>
+                </div>
+              </div>
+            </div>
+            <!-- Team Member 1 -->
+            <div class="col-lg-3">
+              <div class="border-gradient">
+                <div class="team-member-style-3" data-aos="zoom-in" data-aos-delay="300">
+                  <img src="images/index-data/team/anton.png" class="rounded-circle" alt="Team member">
+                  <div class="member-social">
+                    <a href="#" class="btn btn-facebook btn-circle"></a>
+                    <a href="#" class="btn btn-twitter btn-circle"></a>
+                    <a href="#" class="btn btn-instagram btn-circle"></a>
+                  </div>
+                  <h6 class="member-name">Anton</h6>
+                  <span class="member-title">Communications</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="achievements" class="px-lg-5">
+        <div class="container-fluid">
+          <div class="row" style="height:400px;">
+            <div class="offset-lg-1 col-lg-4 pr-lg-5 align-self-center" data-aos="fade-right">
+              <h5 class="text-primary mb-3">We are proud</h5>
+              <h3 class="mt-1">What we have achieved so far</h3>
+            </div>
+            <!-- Counter 1 -->
+            <div class="col-lg-2 align-self-start">
+              <div class="border-gradient">
+                <div class="counter bg-dark" data-aos="zoom-in" data-aos-delay="0">
+                  <span class="timer" data-from="1" data-to="1304" data-speed="3000"></span>
+                  <h6 class="timer-title">Analysis Projects</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Counter 2 -->
+            <div class="col-lg-2 align-self-center">
+              <div class="border-gradient">
+                <div class="counter bg-dark" data-aos="zoom-in" data-aos-delay="100">
+                  <span class="timer" data-from="1" data-to="202" data-speed="3000"></span>
+                  <h6 class="timer-title">Specialists</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Counter 3 -->
+            <div class="col-lg-2 align-self-end">
+              <div class="border-gradient">
+                <div class="counter bg-dark" data-aos="zoom-in" data-aos-delay="200">
+                  <span class="timer" data-from="1" data-to="15" data-speed="3000"></span>
+                  <h6 class="timer-title">Years of Experience</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customers -->
+      <section id="customers" class="text-white">
+        <div class="figures d-none d-xl-block">
+          <img class="figure-1" src="images/index-data/testimonials/01.png" alt="Figure Cando">
+          <img class="figure-2" src="images/index-data/testimonials/02.png" alt="Figure Cando">
+          <img class="figure-3" src="images/index-data/testimonials/03.png" alt="Figure Cando">
+          <img class="figure-4" src="images/index-data/testimonials/04.png" alt="Figure Cando">
+          <img class="figure-5" src="images/index-data/testimonials/05.png" alt="Figure Cando">
+          <img class="figure-6" src="images/index-data/testimonials/06.png" alt="Figure Cando">
+        </div>
+        <div class="container">
+          <div class="row mb-3 text-center">
+            <div class="col">
+              <h3 class="mb-4">Our customers say</h3>
+              <img class="divider mb-5" src="images/index-data/divider.png" alt="Team" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" data-aos="zoom-in" data-aos-delay="100">
+              <!-- Opinions Carousel -->
+              <div class="owl-testimonials-style-2 owl-carousel owl-theme">
+                <!-- Opinion 1 -->
+                <div class="item testimonial">
+                  <span class="quote-message text-white">"We love the app. This should go up for an award or something!<br> Great response and exceptional quality."</span>
+                  <div class="quote-info text-white">
+                    <h6 class="quote-author text-white">Anna / Italy</h6>
+                  </div>
+                </div>
+                <!-- Opinion 2 -->
+                <div class="item testimonial">
+                  <span class="quote-message text-white">"The application is wonderful and great to work with.<br> I could not be happier with my decision to download it."</span>
+                  <div class="quote-info text-white">
+                    <h6 class="quote-author text-white">Marcelo / Brazil</h6>
+                  </div>
+                </div>
+                <!-- Opinion 3 -->
+                <div class="item testimonial">
+                  <span class="quote-message text-white">"We are amazed by the performance of iPhone app.<br> You have delivered a high-quality application"</span>
+                  <div class="quote-info text-white">
+                    <h6 class="quote-author text-white">Hana / Germany</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="quote" class="pb-120 pt-120">
+        <div class="container">
+          <div class="row">
+            <!-- Counter 1 -->
+            <div class="col">
+              <div data-aos="zoom-in" data-aos-delay="0">
+                <div class="card border-darker bg-darker p-5 parallax" style="background-image:url(images/index-data/cta/quote.png);">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4 class="mt-0">Get started today</h4>
+                      <p class="lead">Get 14 days trial for our standard plan plus a free analysis from our specialists.</p>
                     </div>
+                    <div class="offset-md-2 col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="URLInput" placeholder="your website url">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="EmailInput" placeholder="your email">
+                      </div>
+                      <a href="#" class="btn btn-large btn-primary">Submit</a>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-<div class="features container-fluid">
-    <div class="container">
-        <div class="row rtl-row">
-            <div class="col-sm-5">
-                <div class="img-holder">
-                    <img src="images/feature1.png" alt="">
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="feature-info">
-                    <div class="feature-title">Hosting For Every Website</div>
-                    <div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere euismod dui eget ultrices. Cras condimentum dui eget erat commodo, in venenatis eros blandit.</div>
-                    <div class="feature-link"><a href="#" class="hbtn hbtn-default">Get Started!</a></div>
-                </div>
-            </div>
-        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="p-lg-5 bg-darker text-white">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-5">
-                <div class="img-holder">
-                    <img src="images/feature2.png" alt="">
-                </div>
+          <!-- Contact Info -->
+          <div class="col text-center px-lg-5">
+            <img src="images/index-data/logo-analysis.png" class="pl-5 mb-3" alt="Cando HTML5 Template">
+            <div class="social-icons">
+              <a href="#" class="btn btn-facebook btn-circle"></a>
+              <a href="#" class="btn btn-twitter btn-circle"></a>
+              <a href="#" class="btn btn-instagram btn-circle"></a>
+              <a href="#" class="btn btn-youtube btn-circle"></a>
             </div>
-            <div class="col-sm-7 def-aligned">
-                <div class="feature-info">
-                    <div class="feature-title">In a hurry? let’s start!</div>
-                    <div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere euismod dui eget ultrices. Cras condimentum dui eget erat commodo, in venenatis eros blandit.</div>
-                    <div class="feature-link"><a href="#" class="hbtn hbtn-default">Get Started!</a></div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="row rtl-row">
-            <div class="col-sm-5">
-                <div class="img-holder">
-                    <img src="images/feature3.png" alt="">
-                </div>
-            </div>
-            <div class="col-sm-7">
-                <div class="feature-info">
-                    <div class="feature-title">Grow with us</div>
-                    <div class="feature-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere euismod dui eget ultrices. Cras condimentum dui eget erat commodo, in venenatis eros blandit.</div>
-                    <div class="feature-link"><a href="#" class="hbtn hbtn-default">Get Started!</a></div>
-                </div>
-            </div>
+        <div class="row text-center">
+          <!-- Copyrights & Social Icons -->
+          <div class="col">
+            <span class="copyright text-white">Crafted with <span class="primary">&hearts;</span> by TDGR</span>
+          </div>
         </div>
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+    	<a class="backToTop" href="#hero"><i class="fas fa-chevron-up"></i></a>
     </div>
-</div>
-<div class="pricing container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="row-title">Our hosting services</div>
-            </div>
-        </div>
-        <div class="row custom-padding">
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Web Hosting</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server1.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>User-friendly building tools</li>
-                            <li>Host unlimited domains</li>
-                            <li>Perfect for small sites/blogs</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">2.75</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="webhosting.html">Get Started!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Wordpress Hosting</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server4.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Host up to 2 websites</li>
-                            <li>Experience faster load times</li>
-                            <li>Easy to use WP control panel</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">5.34</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="wordpresshosting.html">See Plans</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Cloud Hosting</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server2.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Up to 2X Faster</li>
-                            <li>4X More Scalable</li>
-                            <li>Intuitive Dashboard</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">7.99</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="cloudhosting.html">Know more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">VPS Hosting</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server3.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Dedicated Control</li>
-                            <li>Full Root Access</li>
-                            <li>Scalable Resources</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">20.40</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="vpshosting.html">Get Started!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Dedicated Hosting</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server5.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>Full root access</li>
-                            <li>4 core CPU | 8GB RAM | 1TB disk</li>
-                            <li>Unmetered bandwith</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">22.80</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="dedicatedhosting.html">See Plans</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="pricing-box">
-                    <div class="pricing-title">Domain names</div>
-                    <div class="pricing-icon">
-                        <div class="icon"><img src="images/server6.svg" alt=""></div>
-                    </div>
-                    <div class="pricing-details">
-                        <ul>
-                            <li>User-friendly building tools</li>
-                            <li>Host unlimited domains</li>
-                            <li>Perfect for small sites/blogs</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-price">
-                        <div class="price-info">Starting at only</div>
-                        <div class="price">
-                            <span class="currency">$</span><span class="num">50.22</span><span class="duration">/mo</span>
-                        </div>
-                    </div>
-                    <div class="pricing-button">
-                        <a href="domains.html">Know more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="latest-news container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="row-title">
-                    Latest news from our blog
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="main-btn-holder">
-                    <a href="blog.html" class="hbtn hbtn-default">View more</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="post-box blue-bg">
-                    <div class="post-img"></div>
-                    <span class="badge badge-danger">Hot</span>
-                    <div class="post-title">Discover our new website builder</div>
-                    <div class="post-link"><a href="#">Learn more</a></div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="post-box grey-bg">
-                    <div class="post-img"></div>
-                    <span class="badge badge-info">Hot</span>
-                    <div class="post-title">New Data center in Germany & USA</div>
-                    <div class="post-link"><a href="#">Learn more</a></div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="post-box yellow-bg">
-                    <div class="post-img"></div>
-                    <span class="badge badge-dark">Hot</span>
-                    <div class="post-title">Discover our newwebsite builder</div>
-                    <div class="post-link"><a href="#">Learn more</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="domain-search-holder container-fluid">
-    <div class="container">
-        <form>
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lgmd-4"><div class="title">Search a domain</div></div>
-                <div class="col-sm-8 col-md-5 col-lgmd-6">
-                    <input class="domain-input" type="text" placeholder="Domain name"> 
-                </div>
-                <div class="col-sm-4 col-md-3 col-lgmd-2">
-                    <button type="submit">Search now</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-<div class="support-links container-fluid">
-    <div class="row">
-        <div class="col-sm-6 hylink-holder">
-            <div class="hylink-box">
-                <div class="icon"><img src="images/info.svg" alt=""></div>
-                <a href="#" class="link">Let’s talk</a>
-                <div class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium.</div>
-            </div>
-        </div>
-        <div class="col-sm-6 hylink-holder">
-            <div class="hylink-box">
-                <div class="icon"><img src="images/chat.svg" alt=""></div>
-                <a href="#" class="link">Go to support center</a>
-                <div class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ccusantium.</div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="footer container-fluid">
-    <a class="btn-go-top" href="#"><i class="hstb hstb-down-arrow"></i></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="blog.html">Press & Media</a></li>
-                        <li><a href="blog.html">News & Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-                    <h4>Hosting</h4>
-                    <ul>
-                        <li><a href="webhosting.html">Web Hosting</a></li>
-                        <li><a href="wordpresshosting.html">Wordpress Hosting</a></li>
-                        <li><a href="cloudhosting.html">Cloud Hosting</a></li>
-                        <li><a href="vpshosting.html">VPS Hosting</a></li>
-                        <li><a href="dedicatedhosting.html">Dedicated Hosting</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <div class="footer-menu">
-                    <h4>Domains</h4>
-                    <ul>
-                        <li><a href="domains.html">Register Domains</a></li>
-                        <li><a href="domains.html">Transfer Domains</a></li>
-                        <li><a href="domains.html">Manage Domains</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                <div class="footer-menu">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="login.html">Client area</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>  
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <div class="footer-menu custom-footer-menu">
-                    <h4>Contact us</h4>
-                    <ul class="social">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                    <ul>
-                        <li>Tel: +(973) 17 880038</li>
-                        <li><a href="#">Chatting service</a></li>
-                        <li><a href="#">Submit a ticket</a></li>
-                        <li><a href="#">Our location</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="sub-footer-menu">
-                        <ul>
-                            <li><a href="#">Sitemap</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                        </ul>        
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="copyright">© Copyright 2018 Hustbee Hosting LLC, All Rights Reserved</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+
+    <!-- Load Scripts -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/infinite-scroll.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/single-page-nav.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
