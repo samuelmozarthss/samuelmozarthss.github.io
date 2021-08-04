@@ -36,7 +36,7 @@
     <header class="nav-style-5">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark px-lg-5">
         <a class="navbar-brand" href="#hero">
-          <img src="images/index-data/logo-analysis.png" alt="Cando HTML5 Template">
+          <img src="images/index-data/logo-analysis.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,12 +50,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#services">Sobre mim</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#process">Habilidades</a>
-            </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#pricing">Portifólio</a>
             </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Habilidades</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#customers">Recomendações</a>
             </li>
@@ -84,7 +84,7 @@
               <p class="lead">"We have wings, learn to fly!"</p>
               <p class="lead">Em constate busca por novos conhecimentos, tentando sempre se lembrar do básico. <br> Estudando para se tornar um Dev. Mobile.</p>
 
-              <a href="cv.pdf" download="Samuel Mozarth - Curriculo.pdf" class="btn btn-outline btn-large">Download do meu Currículo</a>
+              <a href="utils/cv.pdf" download="Samuel Mozarth - Curriculo.pdf" class="btn btn-outline btn-large">Download do meu Currículo</a>
             </div>
             <div class="offset-lg-1 col-lg-7">
               <img src="images/index-data/hero/fundo.png" class="img-fluid" alt="Hero image" />
@@ -103,33 +103,34 @@
             </div>
           </div>
           <div class="row" style="height:430px;">
+            
             <!-- Service Item 1 -->
-            <div class="col-lg-4 align-self-start">
+            <div class="col-lg-4 align-self-center">
               <div class="border-gradient">
                 <div class="service service-style-7" data-aos="zoom-in">
                   <img src="images/index-data/services/iesb.png" alt="Services" />
-                  <h6 class="service-title">Analise e Desenvolvimento de sistemas</h6>
-                  <span class="service-text">Concebimento, criação e gerenciamento de sistemas de infromação, sites, front-end e back-end, analise, gerenciamento e manipução de banco de dados, Graduação - IESB.</span>
+                  <h6 class="service-title">Aplicativos Móveis<br>Pós-Graduação - IESB.</h6>
+                  <span class="service-text">Desenvolvimento de aplciativos moveis em diferentes ecossistemas(Android, iOS,...), framework e metodologias de desenvolvimento computacional móvel.</span>
                 </div>
               </div>
             </div>
             <!-- Service Item 2 -->
-            <div class="col-lg-4 align-self-center">
+            <div class="col-lg-4 align-self-end">
               <div class="border-gradient">
-                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="100">
-                  <img src="images/index-data/services/iesb.png" alt="Services" />
-                  <h6 class="service-title">Aplicativos Móveis</h6>
-                  <span class="service-text">Desenvolvimento de aplciativos moveis em diferentes ecossistemas(Android, iOS,...), framework e metodologias de desenvolvimento computacional móvel, Pós-Graduação - IESB.</span>
+                <div class="service service-style-7" data-aos="zoom-in">
+                  <img src="images/index-data/services/udemy.png" alt="Services" />
+                  <h6 class="service-title">Cursos complementares</h6>
+                  <span class="service-text">Flutter for Android and iOS apps - Cod3r<br>Certified In Scrum Fundamentals - SkillFront,<br>Visual Elements of User Interface Design - CALARTS...<br><a href="cursos.html" class="btn btn-small btn-outline">Ver mais</a></span>
                 </div>
               </div>
             </div>
             <!-- Service Item 3 -->
-            <div class="col-lg-4 align-self-end">
+            <div class="col-lg-4 align-self-start">
               <div class="border-gradient">
-                <div class="service service-style-7" data-aos="zoom-in" data-aos-delay="200">
-                  <img src="images/index-data/services/udemy.png" alt="Services" />
-                  <h6 class="service-title">Cursos complementares</h6>
-                  <span class="service-text">Responsive WebDesign - FreeCodeCamp, Certified In Scrum Fundamentals - SkillFront, Visual Elements of User Interface Design - CALARTS,...</span>
+                <div class="service service-style-7" data-aos="zoom-in">
+                  <img src="images/index-data/services/iesb.png" alt="Services" />
+                  <h6 class="service-title">Analise e Desenv. Sistemas<br>Graduação - IESB</h6>
+                  <span class="service-text">Concebimento, criação e gerenciamento de sistemas de infromação, sites, front-end e back-end, analise, gerenciamento e manipução de <br>banco de dados.</span>
                 </div>
               </div>
             </div>
@@ -193,25 +194,41 @@
             </div>
             <div class="col-lg-4 align-self-center" data-aos="fade-left" data-aos-delay="300">
               <h3 class="text-white mb-3">Minhas habilidades e aptidões...</h3>
+              <p class="lead mb-2">JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 63%;" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">63%</div>
+              </div>
+              <p class="lead mb-2">Dart</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+              <p class="lead mb-2">Flutter</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 57%;" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">57%</div>
+              </div>
+              <p class="lead mb-2">Bootstrap</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
               <p class="lead mb-2">Lógica de Programação</p>
               <div class="progress">
                 <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
               </div>
-              <p class="lead mb-2">JavaScript / Dart</p>
+              <p class="lead mb-2">Firebase</p>
               <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 53%;" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">53%</div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
               </div>
-              <p class="lead mb-2">Flutter / Bootstrap</p>
+              <p class="lead mb-2">MySQL</p>
               <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 49%;" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100">49%</div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+              <p class="lead mb-2">MongoDB</p>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
               </div>
               <p class="lead mb-2">Web design Responsivo</p>
               <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-              </div>
-              <p class="lead mb-2">MySQL / MongoDB / Firebase</p>
-              <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
               </div>
               <p class="lead mb-2">Photoshop / XD / Figma / Zeplin</p>
               <div class="progress">
@@ -262,6 +279,17 @@
               </div>
             </div>
           </div>
+          <div class="row" style="height:430px;">
+            <!-- Service Item 4 -->
+            <div class="col-lg-4 align-self-start">
+              <div class="border-gradient">
+                <div class="service service-style-7" data-aos="zoom-in" align="center">
+                  <img src="images/index-data/process/kotlin.svg" alt="Services" />
+                  <h6 class="service-title">Kotlin</h6>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="container">
            <div class="row text-center mb-3">
@@ -272,15 +300,6 @@
           </div>
           <div class="row" style="height:430px;">
             <!-- Service Item 1 -->
-            <div class="col-lg-4 align-self-start">
-              <div class="border-gradient">
-                <div class="service service-style-7" data-aos="zoom-in" align="center">
-                  <img src="images/index-data/process/kotlin.svg" alt="Services" />
-                  <h6 class="service-title">Kotlin</h6>
-                </div>
-              </div>
-            </div>
-            <!-- Service Item 2 -->
             <div class="col-lg-4 align-self-center">
               <div class="border-gradient">
                 <div class="service service-style-7" data-aos="zoom-in" align="center" data-aos-delay="100">
@@ -441,21 +460,21 @@
                 <div class="item testimonial">
                   <span class="quote-message text-white">"Profissional dedicado e focado nas tarefas. Sempre pronto para colaborar com a equipe e procurar soluções."</span>
                   <div class="quote-info text-white">
-                    <h6 class="quote-author text-white">João Batista Rebés Trindade</h6>
+                    <h6 class="quote-author text-white"><a class="nav-link" target="_blank" href="https://www.linkedin.com/in/joao-batista-rebes-trindade/">João Batista Rebés Trindade</a></h6>
                   </div>
                 </div>
                 <!-- Opinion 2 -->
                 <div class="item testimonial">
-                  <span class="quote-message text-white">"Mensagem"</span>
+                  <span class="quote-message text-white">"Samuel se destacou pela receptividade ao feedback, sempre demonstrando a capacidade de aprender com os profissionais mais experientes da equipe. Sempre demonstrando um trabalho ético e de qualidade, Samuel demonstrou excelência na Diatech e trabalhar com ele foi um prazer, tanto para mim quanto para a equipe"</span>
                   <div class="quote-info text-white">
-                    <h6 class="quote-author text-white"></h6>
+                    <h6 class="quote-author text-white"><a class="nav-link" target="_blank" href="https://www.linkedin.com/in/aldo-henrique-58bb7a169/">Aldo Henrique</a></h6>
                   </div>
                 </div>
                 <!-- Opinion 3 -->
                 <div class="item testimonial">
                   <span class="quote-message text-white">"Mensagem"</span>
                   <div class="quote-info text-white">
-                    <h6 class="quote-author text-white">Nome</h6>
+                    <h6 class="quote-author text-white"><a class="nav-link" target="_blank" href="">Nome</a></h6>
                   </div>
                 </div>
               </div>
